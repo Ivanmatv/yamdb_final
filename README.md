@@ -26,18 +26,19 @@ DB_PORT=5432
 git clone https://github.com/Ivanmatv/infra_sp2.git
 ```
 ```
-cd infra_sp2
+cd yamdb_final
 ```
 
 Запустить все контейнера командой:
+```
+cd infra
+```
 ```
 docker-compose up -d --build
 ```
 
 Выполнить миграции:
-```
-cd infra
-```
+
 ```
 docker-compose exec web python manage.py makemigrations reviews
 ```
