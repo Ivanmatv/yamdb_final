@@ -63,37 +63,37 @@ docker-compose down
 ```
 
 ### Примеры:
-Когда вы запустите проект, по адресу http://localhost/redoc/ будет доступна документация для API Yatube. В документации описано, как должен работать ваш API. Документация представлена в формате Redoc.
+Когда вы запустите проект, по адресу http://51.250.15.168/redoc/ будет доступна документация для API Yatube. В документации описано, как должен работать ваш API. Документация представлена в формате Redoc.
 
-В проекте доступны следующие эндпоинты: http://localhost/api/v1/auth/signup/ - Получение кода подверждения на email
+В проекте доступны следующие эндпоинты: http://51.250.15.168/api/v1/auth/signup/ - Получение кода подверждения на email
 
 {
     "email": "string",
     "username": "string"
 }
 
-http://localhost/api/v1/auth/token/ - Получение токена для авторизации
+http://51.250.15.168/api/v1/auth/token/ - Получение токена для авторизации
 
 {
     "username": "string",
     "confirmation_code": "string"
 }
 
-http://localhost/api/v1/categories/ - Работа с категориями, доступны запросы Get, Post и Del
+http://51.250.15.168/api/v1/categories/ - Работа с категориями, доступны запросы Get, Post и Del
 
-http://localhost/api/v1/genres/ - Работа с жанрами, доступны запросы Get, Post и Del
+http://51.250.15.168/api/v1/genres/ - Работа с жанрами, доступны запросы Get, Post и Del
 
-http://localhost/api/v1/titles/ - Работа со статьями , доступны запросы Get, Post, Patch и Del
+http://51.250.15.168/api/v1/titles/ - Работа со статьями , доступны запросы Get, Post, Patch и Del
 
-http://localhost/api/v1/titles/{title_id}/reviews/ - Работа с отзывами , доступны запросы Get, Post, Patch и Del
+http://51.250.15.168/api/v1/titles/{title_id}/reviews/ - Работа с отзывами , доступны запросы Get, Post, Patch и Del
 
-http://localhost/api/v1/titles/{title_id}/reviews/{review_id}/comments/ - Работа с комментариями , доступны запросы Get, Post, Patch и Del
+http://51.250.15.168/api/v1/titles/{title_id}/reviews/{review_id}/comments/ - Работа с комментариями , доступны запросы Get, Post, Patch и Del
 
-http://localhost/api/v1/users/ - Создание пользователя и получение информации о всех пользователях. Доступны запросы Get, Post
+http://51.250.15.168/api/v1/users/ - Создание пользователя и получение информации о всех пользователях. Доступны запросы Get, Post
 
-http://localhost/api/v1/users/{username}/ - Получение информации о конкретном пользователе и редактирование информации о нем. Доступны доступны запросы Get, Postm Del
+http://51.250.15.168/api/v1/users/{username}/ - Получение информации о конкретном пользователе и редактирование информации о нем. Доступны доступны запросы Get, Postm Del
 
-http://localhost/api/v1/users/me/ - Получение и изменение своих данных, доступны запросы Get, Patch
+http://51.250.15.168/api/v1/users/me/ - Получение и изменение своих данных, доступны запросы Get, Patch
 
 ### Использумые технологии:
 
